@@ -1,0 +1,23 @@
+{
+  "name": "podio-export",
+  "version": "0.0.0",
+  "description": "Export Podio data to JSON files",
+  "author": "podio-export (https://github.com/podio-export)",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "podio-export": "./index.js",
+  },
+  "dependencies": {
+    "async": "^2.6.1",
+    "download": "^7.1.0",
+    "fs-extra": "^7.0.1",
+    "limiter": "^1.1.3",
+    "mime": "^2.4.0",
+    "podio-js": "^1.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.10.0"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "EACH_LIMIT": 4,
+  "RATE_LIMIT": 250,
+  "SHOULD_DOWNLOAD_FILES": true
+}
