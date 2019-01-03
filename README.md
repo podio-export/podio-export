@@ -22,7 +22,7 @@ cd podio-export
 npm install --production
 ```
 
-Head over to Podio to [generate a client_id and client_secret](https://podio.com/settings/api) and add your client_id, client_secret, username and password to a new `podio-export/secrets.json` file, which should have the following format:
+Head over to Podio to [generate a client_id and client_secret](https://podio.com/settings/api) and add your client_id, client_secret, username and password to a new file you should create as `podio-export/secrets.json`. This file should have the following format:
 
 ```json
 {
@@ -36,7 +36,7 @@ Head over to Podio to [generate a client_id and client_secret](https://podio.com
 And finally run the tool:
 
 ```shell
-npm podio-export
+npm run podio-export
 ```
 
 Once the tool has finished, it will show the contents of the resulting `summary.json`, which should be something like:
