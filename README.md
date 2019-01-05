@@ -26,10 +26,10 @@ Head over to Podio to [generate a client_id and client_secret](https://podio.com
 
 ```json
 {
-  "clientId": "YOUR_CLIENT_ID",
-  "clientSecret": "YOUR_CLIENT_SECRET",
-  "username": "YOUR_USERNAME",
-  "password": "YOUR_PASSWORD"
+  "CLIENT_ID": "YOUR_CLIENT_ID",
+  "CLIENT_SECRET": "YOUR_CLIENT_SECRET",
+  "USERNAME": "YOUR_USERNAME",
+  "PASSWORD": "YOUR_PASSWORD"
 }
 ```
 
